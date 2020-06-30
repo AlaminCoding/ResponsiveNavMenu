@@ -89,9 +89,19 @@ nav {
   transform: rotate(-45deg) translate(-5px, 9px);
 }
 .toggle .line2 {
+  transform: translateX(-100%);
   opacity: 0;
   transition: 0.5s;
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -9px);
+}
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Piedra", cursive;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 3px crimson;
 }
